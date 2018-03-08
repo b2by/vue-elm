@@ -77,4 +77,23 @@
     .star-48 .off {
         background-image: url(../../resource/img/star48_off@2x.png);
     }
+
+    .star-36 .star-item {
+        width: 20px;
+        height: 20px;
+        margin-right: 22px;
+        background-size: 20px 20px;
+    }
+    .star-36 .star-item:last-child {
+        margin-right: 0;
+    }
+    .star-36 .on {
+        background-image: url(../../resource/img/star36_on@2x.png);
+    }
+    .star-36 .half {
+        background-image: url(../../resource/img/star36_half@2x.png);
+    }
+    .star-36 .off {
+        background-image: url(../../resource/img/star36_off@2x.png);
+    }
 </style>
