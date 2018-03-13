@@ -29,6 +29,7 @@
                     </li>
                 </ul>
             </div>
+            <div class="split"></div>
             <div class="bulletins">
                 <h1 class="title">公告与活动</h1>
                 <div class="content-wrapper">
@@ -61,7 +62,7 @@
             this.classMap = ['decrease', 'discount', 'guarantee', 'invoice', 'special']
         },
         watch: {
-            'seller'() {
+            seller() {
                 this._initScroll()
             }
         },
@@ -107,6 +108,7 @@
         padding-bottom: 18px;
         border: rgba(7, 17, 27, 0.1);
         font-size: 0;
+        border-bottom: 1px solid rgba(7, 17, 27, 0.1);
     }
     .desc .star {
         display: inline-block;
@@ -149,6 +151,7 @@
     }
     .seller-content .bulletins {
         padding: 18px 18px 0 18px;
+        border-top: 1px solid rgba(7, 17, 27, 0.1);
     }
     .bulletins .title {
         margin-bottom: 8px;
@@ -158,6 +161,11 @@
     } 
     .seller-content .content-wrapper {
         padding: 0 12px 16px 12px;
+    }
+    .seller-content .split {
+        border-top: 1px solid rgba(7, 17, 27, 0.1);
+        height: 18px;
+        background-color: #f3f5f7;
     }
     .bulletins .content {
         line-height: 24px;
