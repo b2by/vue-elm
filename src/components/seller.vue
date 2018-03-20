@@ -62,7 +62,7 @@
             this.classMap = ['decrease', 'discount', 'guarantee', 'invoice', 'special']
         },
         watch: {
-            seller() {
+            'seller'() {
                 this._initScroll()
             }
         },
@@ -96,6 +96,7 @@
         overflow: hidden;
     }
     .seller-content .overview {
+        display: block;
         padding: 18px;
     }
     .overview .title {
